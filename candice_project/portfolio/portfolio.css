@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden;
+  background-image: url("background.jpeg"); }
+
+#header {
+  position: relative;
+  width: 50%;
+  max-height: 120px;
+  margin: 2em auto;
+  display: block; }
+  #header img {
+    position: relative;
+    left: 0;
+    top: 0;
+    border-radius: 20px; }
+
+#links {
+  position: relative;
+  height: 200px;
+  padding: 10px;
+  width: 100%; }
+  #links > div {
+    height: 100%;
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-left: 1.5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px; }
+    #links > div:first-child {
+      margin-left: 0; }
+    #links > div a {
+      height: 100%;
+      display: block;
+      cursor: pointer; }
+      #links > div a img {
+        height: 100%;
+        width: 100%; }
+
+#about {
+  width: 80%;
+  display: block;
+  position: relative;
+  margin: 0 auto; }

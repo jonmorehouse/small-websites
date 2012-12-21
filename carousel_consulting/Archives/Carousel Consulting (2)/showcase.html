@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="resources/frame.css" />
+	<link rel="stylesheet" type="text/css" href="resources/content.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"> </script>
+	<title>Showcase</title>
+	
+</head>
+
+<body>
+		<div id="bottom_border" class="border"></div>
+		<div id="left_border" class="border"></div>
+		<div id="right_border" class="border"></div>
+		<div id="top_border" class="border"></div>
+		<div id="content_background"><img id="content" alt="content" src="images/content.png" /></div>
+		<div id="body_wrapper">
+		<div id="logo">
+			<a href="index.html" target="_top"><img id="logo" alt="logo" src="images/logo.png"></a>
+		</div>
+
+		<div id="nav">
+			<ul>
+				<li><a href="who.html" target="_top"> + Who? </a></li>
+				<li><a href="consulting.html" target="_top"> + Consulting </a></li>
+				<li><a href="restaurant_equipment_services.html" target="_top"> + Restaurant Equipment Services</a></li>
+				<li><a href="residential_services.html" target="_top"> + Residential Services </a></li>
+				<li><a href="showcase.html" target="_top"> + Showcase </a></li>
+				<li><a href="the_cause.html" target="_top"> + The Cause</a></li>
+				<li><a href="contact.html" target="_top"> + Contact</a></li>
+			</ul>
+
+		<div class="connect" id="connect"><p>+ Connect</p>
+
+		<div id="share">
+				<a href="http://www.facebook.com/CarouselConsulting" target="_blank"><img id="facebook_1" alt="facebook logo" 		src="images/logos/facebook.png" /></a>
+				<a href="http://www.twitter.com/" target="_blank">	<img id="twitter_1" alt="twitter logo" src="images/logos/twitter.png" /> </a>
+		</div>
+		</div>
+	</div>
+	</div>
+
+			<!-- THIS SECTION IS FOR JAVASCRIPT/JQUERY FUNCTIONS -->
+
+			<script type="text/javascript">
+			$('#connect').mouseenter(function(){
+				$('#connect').addClass('connect_hover');
+				$('#share').css('opacity', '2.0');
+			});
+
+			$('#facebook_1').mouseenter(function(){
+				$('#facebook_1').attr('src', 'images/logos/facebook_hover.png');
+			});
+
+			$('#twitter_1').mouseenter(function(){
+				$('#twitter_1').attr('src', 'images/logos/twitter_hover.png');
+			});
+
+			$('#twitter_1').mouseleave(function(){
+				$('#twitter_1').attr('src', 'images/logos/twitter.png');
+			});
+
+			$('#facebook_1').mouseleave(function(){
+				$('#facebook_1').attr('src', 'images/logos/facebook.png');
+			});
+
+
+			$('#connect').mouseleave(function(){
+				$(this).removeClass('connect_hover');
+				$('#share').css('opacity', '0.0');
+			});
+
+			</script>
+
+	
+<div class="page_content">
+	<h2>The Lost Bean</h2>
+	<hr>
+	<h3>Organic Coffee &amp Tea</h3>
+
+<p>Co-Owner and Founder: May 2005 to July 2011</p>
+
+<p><a href="http://www.thelostbean.com" target="_blank">www.thelostbean.com</a></p>
+<ul>
+	<li>Voted 2009 best coffee shop in Orange County by the OC Weekly Readers</li>
+	<li>Featured multiple times in such publications as Riviera Magazine, 949 Magazine (featured in green business issue), OC weekly and Tustin News</li>
+	<li>Featured twice on Orange county's TV news show</li>
+	<li>Consistently maintaining 4 1/2 star average reviews on Yelp</li>
+</ul>
+	
+	<div id="slideshow" class="lost_bean">
+		
+		<div id="left_button" class="lost_bean">
+			<img alt="left_button_image" src="images/left_button.png" />
+		</div>
+		
+				<ul class="main_image lost_bean">
+					<li><img id="1" class="first" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_1.png" /></li>
+					<li><img id="2" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_2.png" /></li>
+					<li><img id="3" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_3.png" /></li>
+					<li><img id="4" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_4.png" /></li>
+					<li><img id="5" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_5.png" /></li>
+					<li><img id="6" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_6.png" /></li>
+					<li><img id="7" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_7.png" /></li>
+					<li><img id="8" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_8.png" /></li>
+					<li><img id="9" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_9.png" /></li>
+					<li><img id="10" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_10.png" /></li>
+					<li><img id="11" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_11.png" /></li>
+					<li><img id="12" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_12.png" /></li>
+					<li><img id="13" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_13.png" /></li>
+					<li><img id="14" alt="Carousel Consulting example images" src="images/gallery/lost_bean/LB_14.png" /></li>
+				</ul>
+
+		<div id="right_button" class="lost_bean">
+			<img alt="right_button_image" src="images/right_button.png" />
+		</div>
+
+	</div>
+<hr>
+<h2>Tully's Coffee</h2>
+<hr>
+<h3>Region: Los Angeles + Orange County + Berkeley</h3>
+<ul>
+	<li>Restructuring of regional office policies and operating procedures</li>
+	<li>Adjust store operating policies and procedures for region</li>
+	<li>Financial modeling and planning</li>
+	<li>Detailed company evaluation</li>
+	<li>Location surveys</li>
+	<li>Store Unwinds</li>
+</ul>
+
+<div id="slideshow">
+	
+	<div id="left_button" class="tully">
+		<img alt="left_button_image" src="images/left_button.png" />
+	</div>
+			<ul class="main_image tully">
+				<li><img id="1" class="first" alt="Carousel Consulting example images" src="images/gallery/tully/T_1.png" /></li>
+				<li><img id="2" alt="Carousel Consulting example images" src="images/gallery/tully/T_2.png" /></li>
+				<li><img id="3" alt="Carousel Consulting example images" src="images/gallery/tully/T_3.png" /></li>
+				<li><img id="4" alt="Carousel Consulting example images" src="images/gallery/tully/T_4.png" /></li>
+				<li><img id="5" alt="Carousel Consulting example images" src="images/gallery/tully/T_5.png" /></li>	
+				<li><img id="5" alt="Carousel Consulting example images" src="images/gallery/tully/T_6.png" /></li>	
+				<li><img id="5" alt="Carousel Consulting example images" src="images/gallery/tully/T_7.png" /></li>	
+			</ul>
+
+	<div id="right_button" class="tully">
+		<img alt="right_button_image" src="images/right_button.png" />
+	</div>
+
+</div>
+
+<hr>
+<h2>The Yogurt Mill</h2>
+<hr>
+
+<ul>
+	<li>2004</li>
+	<li>Complete company rebranding</li>
+	<li>Remodel of two locations</li>
+	<li>New Operation polices and training manuals</li>
+	<li>Implementation of new Point of sale system</li>
+	<li>New specialty Coffee program</li>
+	<li>Corporate & Store level training</li>
+</ul>
+<div id="slideshow">
+	
+	<div id="left_button" class="yogurt_mill">
+		<img alt="left_button_image" src="images/left_button.png" />
+	</div>
+	
+			<ul class="main_image yogurt_mill">
+				<li><img id="1" class="first" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_1.png" /></li>
+				<li><img id="2" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_2.png" /></li>
+				<li><img id="3" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_3.png" /></li>
+				<li><img id="4" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_4.png" /></li>
+				<li><img id="5" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_5.png" /></li>
+				<li><img id="6" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_6.png" /></li>
+				<li><img id="7" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_7.png" /></li>
+				<li><img id="8" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_8.png" /></li>
+				<li><img id="9" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_9.png" /></li>
+				<li><img id="10" alt="Carousel Consulting example images" src="images/gallery/yogurt_mill/YM_10.png" /></li>	
+			</ul>
+
+	<div id="right_button" class="yogurt_mill">
+		<img alt="right_button_image" src="images/right_button.png" />
+	</div>
+
+</div>
+<hr>
+<h2>Atlas Lounge</h2>
+<hr>
+
+
+<h3>Status: For Sale! Please inquire for pricing and further information</h3>
+
+<ul>
+	<li>Comprehensive-dynamic business plan</li>
+	<li>Concept overview</li>
+	<li>Interior design</li>
+	<li>Material selection</li>
+	<li>Floor plan</li>
+	<li>Menu overview</li>
+	<li>Marketing plan</li>
+	<li>Investor details</li>
+	<li>Financial plan</li>
+</ul>
+<div id="slideshow">
+	<div id="left_button" class="al">
+		<img alt="left_button_image" src="images/left_button.png" />
+	</div>
+	
+			<ul class="main_image al">
+				<li><img id="1" class="first" alt="Carousel Consulting example images" src="images/gallery/al/AL_1.png" /></li>
+				<li><img id="2" alt="Carousel Consulting example images" src="images/gallery/al/AL_2.png" /></li>
+				<li><img id="3" alt="Carousel Consulting example images" src="images/gallery/al/AL_3.png" /></li>
+				<li><img id="4" alt="Carousel Consulting example images" src="images/gallery/al/AL_4.png" /></li>
+				<li><img id="5" alt="Carousel Consulting example images" src="images/gallery/al/AL_5.png" /></li>	
+			</ul>
+
+
+	<div id="right_button" class="al">
+		<img alt="right_button_image" src="images/right_button.png" />
+	</div>
+
+</div>
+<hr>
+<h2>Riviera Magazine</h2>
+<hr>
+<h3>The Men's Issue</h3>
+<h3>Entrepreneurs on the rise:  Zeke + C</h3>
+
+<img id="riviera" alt="Riviera" src="images/gallery/RM_1.png" />
+<hr>
+		<h2>OC News</h2>
+		<p>No new sales tax!</p>
+		<h3>Featuring: The Lost Bean</h3>
+		<iframe id="oc_news" width="420" height="315" src="http://www.youtube.com/embed/KMgl9K2dlsY" frameborder="0" allowfullscreen></iframe>
+<hr>
+<h2>OC News Channel	</h2>
+<hr>
+<ul>
+	<li>No new sales tax</li>
+	<li>Small business focus</li>
+	<li>OC Weekly</li>
+	<li>Riviera Magazine</li>
+	<li>944 Magazine</li>
+	<li>Tustin News</li>
+	<li>Orange County Register</li>
+</ul>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+</div>
+
+
+<div id="bottom_border"> </div>
+
+			
+<!-- THIS NEXT SECTION IS THE CUSTOM SLIDESHOW FOR THIS PAGE! -->
+
+<!-- <script type="text/javascript">
+$('#left_button').click(function(){
+	var number = $('#left_button').attr('src');
+	$number.replace('.jpg', '');
+	$('#left_button').($number.val());
+});
+</script> -->
+
+
+
+<script type="text/javascript">
+$('.lost_bean.main_image li').not(':first').hide();
+
+$('.lost_bean#left_button').click(function(){
+	var current=$('.main_image.lost_bean li:visible');
+	if ($(current).prev().is('.lost_bean li')) 
+		{
+				$(current).prev('.lost_bean li').show();//we could animate it coming in from the right while it hides
+				$(current).hide();//we could animate it going to the left while it hides
+		}
+	else
+		{
+			$(current).hide();
+			$('.main_image.lost_bean li:last').show();}
+		});
+
+$('.lost_bean#right_button').click(function(){
+	var current=$('.lost_bean.main_image li:visible');
+		if ($(current).next().is('.lost_bean li')) 
+				{
+					$(current).next('.lost_bean li').show();//we could animate it coming in from the right while it hides
+					$(current).hide();//we could animate it going to the left while it hides
+				}
+			else
+				{
+					$(current).hide();
+					$('.lost_bean.main_image li:first').show();}
+				});
+		
+		//then for the next part we just find the id of the list element that is visible and will use that integer to fill in the small boxes
+		
+</script>
+
+<script type="text/javascript">
+$('.yogurt_mill.main_image li').not(':first').hide();
+
+$('.yogurt_mill#left_button').click(function(){
+	var current=$('.main_image.yogurt_mill li:visible');
+	if ($(current).prev().is('li')) 
+		{
+				$(current).prev('.yogurt_mill li').show();//we could animate it coming in from the right while it hides
+				$(current).hide();//we could animate it going to the left while it hides
+		}
+	else
+		{
+			$(current).hide();
+			$('.main_image.yogurt_mill li:last').show();}
+		});
+
+$('.yogurt_mill#right_button').click(function(){
+	var current=$('.yogurt_mill.main_image li:visible');
+		if ($(current).next().is('.yogurt_mill li')) 
+				{
+					$(current).next('.yogurt_mill li').show();//we could animate it coming in from the right while it hides
+					$(current).hide();//we could animate it going to the left while it hides
+				}
+			else
+				{
+					$(current).hide();
+					$('.yogurt_mill.main_image li:first').show();}
+				});
+		
+		//then for the next part we just find the id of the list element that is visible and will use that integer to fill in the small boxes
+		
+</script>
+
+<script type="text/javascript">
+$('.al.main_image li').not(':first').hide();
+
+$('.al#left_button').click(function(){
+	var current=$('.main_image.al li:visible');
+	if ($(current).prev().is('li')) 
+		{
+				$(current).prev('.al li').show();//we could animate it coming in from the right while it hides
+				$(current).hide();//we could animate it going to the left while it hides
+		}
+	else
+		{
+			$(current).hide();
+			$('.main_image.al li:last').show();}
+		});
+
+$('.al#right_button').click(function(){
+	var current=$('.al.main_image li:visible');
+		if ($(current).next().is('.al li')) 
+				{
+					$(current).next('.al li').show();//we could animate it coming in from the right while it hides
+					$(current).hide();//we could animate it going to the left while it hides
+				}
+			else
+				{
+					$(current).hide();
+					$('.al.main_image li:first').show();}
+				});
+		
+		//then for the next part we just find the id of the list element that is visible and will use that integer to fill in the small boxes
+		
+</script>
+
+<script type="text/javascript">
+$('.tully.main_image li').not(':first').hide();
+
+$('.tully#left_button').click(function(){
+	var current=$('.main_image.tully li:visible');
+	if ($(current).prev().is('li')) 
+		{
+				$(current).prev('.tully li').show();//we could animate it coming in from the right while it hides
+				$(current).hide();//we could animate it going to the left while it hides
+		}
+	else
+		{
+			$(current).hide();
+			$('.main_image.tully li:last').show();}
+		});
+
+$('.tully#right_button').click(function(){
+	var current=$('.tully.main_image li:visible');
+		if ($(current).next().is('.tully li')) 
+				{
+					$(current).next('.tully li').show();//we could animate it coming in from the right while it hides
+					$(current).hide();//we could animate it going to the left while it hides
+				}
+			else
+				{
+					$(current).hide();
+					$('.tully.main_image li:first').show();}
+				});
+		
+		//then for the next part we just find the id of the list element that is visible and will use that integer to fill in the small boxes
+		
+</script>
+
+
+
+
+</body>
+</html>

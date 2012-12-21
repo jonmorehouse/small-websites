@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="resources/frame.css" />
+	<link rel="stylesheet" type="text/css" href="resources/content.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"> </script> 
+	<title>Consulting</title>
+</head>
+<body>
+	<div id="bottom_border" class="border"></div>
+	<div id="left_border" class="border"></div>
+	<div id="right_border" class="border"></div>
+	<div id="top_border" class="border"></div>
+	<div id="content_background"><img id="content" alt="content" src="images/content.png" /></div>
+	<div id="body_wrapper">
+	<div id="logo">
+		<a href="index.html" target="_top"><img id="logo" alt="logo" src="images/logo.png"></a>
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li><a href="who.html" target="_top"> + Who? </a></li>
+			<li><a href="consulting.html" target="_top"> + Consulting </a></li>
+			<li><a href="restaurant_equipment_services.html" target="_top"> + Restaurant Equipment Services</a></li>
+			<li><a href="residential_services.html" target="_top"> + Residential Services </a></li>
+			<li><a href="showcase.html" target="_top"> + Showcase </a></li>
+			<li><a href="the_cause.html" target="_top"> + The Cause</a></li>
+			<li><a href="contact.html" target="_top"> + Contact</a></li>
+		</ul>
+
+	<div class="connect" id="connect"><p>+ Connect</p>
+
+	<div id="share">
+			<a href="http://www.facebook.com/CarouselConsulting" target="_blank"><img id="facebook_1" alt="facebook logo" 		src="images/logos/facebook.png" /></a>
+			<a href="http://www.twitter.com/" target="_blank">	<img id="twitter_1" alt="twitter logo" src="images/logos/twitter.png" /> </a>
+	</div>
+	</div>
+</div>
+</div>
+	
+		<!-- THIS SECTION IS FOR JAVASCRIPT/JQUERY FUNCTIONS -->
+
+		<script type="text/javascript">
+		$('#connect').mouseenter(function(){
+			$('#connect').addClass('connect_hover');
+			$('#share').css('opacity', '2.0');
+		});
+
+		$('#facebook_1').mouseenter(function(){
+			$('#facebook_1').attr('src', 'images/logos/facebook_hover.png');
+		});
+
+		$('#twitter_1').mouseenter(function(){
+			$('#twitter_1').attr('src', 'images/logos/twitter_hover.png');
+		});
+
+		$('#twitter_1').mouseleave(function(){
+			$('#twitter_1').attr('src', 'images/logos/twitter.png');
+		});
+
+		$('#facebook_1').mouseleave(function(){
+			$('#facebook_1').attr('src', 'images/logos/facebook.png');
+		});
+
+
+		$('#connect').mouseleave(function(){
+			$(this).removeClass('connect_hover');
+			$('#share').css('opacity', '0.0');
+		});
+
+		</script>
+	
+<div class="page_content" id="page_content">
+
+<p>	We are constantly searching for new ways to creatively enhance your vision.  We enact change, but in a way that has never really changed.  We believe in revitalizing time-tested ideas and methods in order to produce the best outcome possible.  From flushing out ideas during early brainstorming sessions, to executing the project on time and on budget, Carousel provides a personal partnership that brings with it a comprehensive range of specialized services.
+</p>
+
+<hr>
+<h2>SERVICES</h2> 
+<hr>
+<div class='columns'>
+<h3>From Concept to Completion</h3>
+	<ul>
+		<li>Business Plans</li>
+		<li>Conceptology</li>
+		<li>Brand Creation</li>
+		<li>Graphic Design</li>
+		<li>Interior/Exterior Design</li>
+		<li>Operations & Logistics</li>
+		<li>Menu Planning</li>
+		<li>Equipment Purchasing</li>
+		<li>Staffing</li>
+		<li>Training Programs</li>
+		<li>Marketing Plans</li>
+		<li>Customer Retention Programs</li>
+		<li>Website Development</li>
+		<li>Eco Chic</li>
+		<li>Location Selection</li>
+		<li>Floor Plans</li>
+		<li>Construction Management</li>
+	</ul>
+</div>
+
+<div class='columns'>
+<h3>Rejuvenation</h3>
+	<ul>	
+		<li>Site Audits</li>
+		<li>Feasibility Studies</li>
+		<li>Expansion Plans</li>
+		<li>Concept Repositioning</li>
+		<li>Remodels</li>
+		<li>Operational Evaluation</li>
+		<li>Crisis Management</li>
+		<li>Turn around's</li> 
+		<li>Exit Strategies</li>
+	</ul>
+</div>
+
+	
+<div class='columns'>
+	<h3>Spreading the Word</h3>
+	<ul>
+		<li>Marketing Plans</li>
+		<li>Customer Retention Programs</li>
+		<li>Position Strategy</li>
+		<li>Viral Marketing</li>
+		<li>Social Media</li>
+		<li>Community Outreach</li>
+		<li>Advertising</li>
+		<li>Website Development & Construction</li> 
+		<li>Pricing Strategy</li>
+		<li>New Product Launch</li>
+	</ul>
+</div>
+
+<hr>
+<h2>A LA CARTE</h2>
+<hr>
+
+<p>Every client is unique with details and budgets. We tailor fit every solution to maximize performance, minimize risk and meet your budget. Let's chat, mix and match some services, and find you a solution. </p>
+
+<hr>
+<h2>THE METHOD</h2>
+<hr>
+<div class='spans'>
+	<h3>A glimpse into how we work...<h3>
+	<h4>#1 Plan</h4>
+	<p><span> Listen -</span>We want to hear your vision for your business and ensure that your voice is preserved</p>
+	<p><span>Analyze -</span>We determine what is already working what isn't, and what can be changed to produce success</p>
+	<p><span>Strategize -</span>Craft a structured plan to provide clarity, direction, timeliness and fiscal responsibility</p>
+
+<!-- CHANGE SPAN TAGS FOR MIDDLE ALIGNMENT ETC. VERTICAL SPACING IS OKAY ETC ETC -->
+
+
+	<h4>#2 Team Focus</h4>
+
+	<p><span>Train -</span>Make sure that every member of your team is on the same page</p>
+	<p><span>Discuss -</span>Remain receptive to ideas for improvement from everyone involved</p>
+	<p><span>Tone -</span>Set an example of energized focus for all to follow</p>
+	
+
+	<h4>#3 Implementation</h4>
+
+	<p><span>Refine -</span>Things come up, so we learn, adjust and thrive</p>
+	<p><span>Advertise -</span>Let your costumers know that you are improving and evolving</p>
+	<p><span>Retention -</span>Once you have 'em, keep 'em</p>
+	
+
+	<h4>#4 Continuous Support</h4>
+
+	<p><span>Measure -</span>How did we do?  Where can we improve?</p>
+	<p><span>Track -</span> Constantly increase knowledge base in order to make informed decisions</p>
+	<p><span>Reward -</span>Allow everyone to enjoy the benefits of your development</p>
+	<br>
+</div>
+</div>
+
+
+
+</body>
+</html>

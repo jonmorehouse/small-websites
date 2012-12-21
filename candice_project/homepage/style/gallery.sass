@@ -1,0 +1,39 @@
+
+#content-box
+  position: relative
+  display: block
+  left: 0
+  padding: 0
+  width: 66%
+  margin: 3em auto
+  background-color: rgba(0, 0, 0, 0.6)
+  border-radius: 20px
+  height: 500px
+  padding: 2%
+  clear: both
+  
+  > div
+    position: relative
+    display: block
+    float: left
+    width: 47.5%
+    height: 100%
+    border-radius: 20px
+    -firefox-border-radius: 20px
+    &:last-child
+      /*this is the text css section*/
+      margin-left: 5%
+      background-color: orange
+
+#content-box > div:first-child
+
+  
+  div
+    display: none
+
+    &:first-child
+      display: block
+  
+    img
+      width: 100%
+

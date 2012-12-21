@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="resources/frame.css" />
+	<link rel="stylesheet" type="text/css" href="resources/content.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"> </script>
+	<title>Who?</title>
+</head>
+
+<body>
+		<div id="bottom_border" class="border"></div>
+		<div id="left_border" class="border"></div>
+		<div id="right_border" class="border"></div>
+		<div id="top_border" class="border"></div>
+		<div id="content_background"><img id="content" alt="content" src="images/content.png" /></div>
+		<div id="body_wrapper">
+		<div id="logo">
+			<a href="index.html" target="_top"><img id="logo" alt="logo" src="images/logo.png"></a>
+		</div>
+
+		<div id="nav">
+			<ul>
+				<li><a href="who.html" target="_top"> + Who? </a></li>
+				<li><a href="consulting.html" target="_top"> + Consulting </a></li>
+				<li><a href="restaurant_equipment_services.html" target="_top"> + Restaurant Equipment</a></li>
+
+				<li><a href="showcase.html" target="_top"> + Showcase </a></li>
+				<li><a href="the_cause.html" target="_top"> + The Cause</a></li>
+				<li><a href="contact.html" target="_top"> + Contact</a></li>
+			</ul>
+
+		<div class="connect" id="connect"><p>+ Connect</p>
+
+		<div id="share">
+				<a href="http://www.facebook.com/CarouselConsulting" target="_blank"><img id="facebook_1" alt="facebook logo" 		src="images/logos/facebook.png" /></a>
+				<a href="http://www.twitter.com/" target="_blank">	<img id="twitter_1" alt="twitter logo" src="images/logos/twitter.png" /> </a>
+		</div>
+		</div>
+	</div>
+	</div>
+
+			<!-- THIS SECTION IS FOR JAVASCRIPT/JQUERY FUNCTIONS -->
+
+			<script type="text/javascript">
+			$('#connect').mouseenter(function(){
+				$('#connect').addClass('connect_hover');
+				$('#share').css('opacity', '2.0');
+			});
+
+			$('#facebook_1').mouseenter(function(){
+				$('#facebook_1').attr('src', 'images/logos/facebook_hover.png');
+			});
+
+			$('#twitter_1').mouseenter(function(){
+				$('#twitter_1').attr('src', 'images/logos/twitter_hover.png');
+			});
+
+			$('#twitter_1').mouseleave(function(){
+				$('#twitter_1').attr('src', 'images/logos/twitter.png');
+			});
+
+			$('#facebook_1').mouseleave(function(){
+				$('#facebook_1').attr('src', 'images/logos/facebook.png');
+			});
+
+
+			$('#connect').mouseleave(function(){
+				$(this).removeClass('connect_hover');
+				$('#share').css('opacity', '0.0');
+			});
+
+			</script>
+	
+
+<div id="page" class="page_content">
+<hr><h1>Who</h1><hr>
+
+
+	<h2>RESTAURANT CONSULTING </h2><hr>
+
+	<p>
+	Welcome to Carousel Consulting, a restaurant consulting group dedicated to the rejuvenation of businesses, lives and communities through progressive development and creative thought. Throughout time and in every culture, the sharing of meals has been about more than simple sustenance.  It provides the setting for social gatherings and family interaction, which are both fundamental to a rich and complete existence.  This is why Carousel Consulting offers comprehensive partnership and artistic collaboration in order to provide the most enriching and supportive environment possible for your restaurant. </p>
+
+	<p>
+	Carousel Consulting understands that every restaurant strives to become uniquely vital to the individuals it serves.  That is why we will fully adopt your personal vision for your company and work together to create, build and continually support this ideal.  We do this by addressing every aspect of your environment.  From concept to completion, we provide consulting, design services and equipment acquisition and repairs for both your business and your home.  
+	</p>
+
+<hr>	<h2>BIOGRAPHY</h2><hr>
+
+	<p>To Zeke Covarrubias, creator of Carousel Consulting, crafting a unique environment in restaurants is similar to composing a symphony.  It requires great imagination, careful preparation and skillful execution, all enhanced by a strong network of support.  It is a vessel through which he can channel his talent for creativity into a finished product that exemplifies his passion for sustainability, fellowship and social consciousness.</p>
+
+	<p>After over 13 years of experience in the restaurant world, Zeke has helped to transform the creative visions of entrepreneurs into reality through viable artistic creativity, careful financial guidance and proven operational planning, all with practical end-user considerations in mind.  With the belief that leading from the front is paramount, Zeke embarked on projects of his own, including The Lost Bean Organic Coffee and Tea.  This unique cafe experience combined socially and environmentally-conscious business practices with Eco-chic design, resulting in a forward-thinking, award-winning concept. While the Lost Bean appeared in many magazines with great praise, it was the cafe's participation in a wide range of charities and local outreach programs that connected the business with its community in a profound and lasting way.</p>
+
+	<p>In a recent interview with Nite Guide magazine, Zeke said of his approach to projects, "It's about taking a client's vision to a place they never could have imagined, while embodying the essence of the client.  I assemble the best team and push for the most innovative yet commercially viable ideas, never wavering until the concept inspires excitement within everyone involved."  Zeke maintains that the removal of ego is imperative for any project, and strongly believes in taking the best original ideas regardless of origin.</p>  
+
+	<p>In addition to restaurant creation, Zeke spent over six years in the Stock Market as a futures and equity trader, focusing on market-neutral trading strategies within multiple sectors.  As he successfully evolved in his career, he began teaching and mentoring beginning traders on varying market approaches.  This experience helped shape a proprietary financial constitution diverse with principles that perfectly complement restaurant development.  His combination of experience in both restaurants and the financial industry has proven invaluable on such large scale, multi-unit projects as Tully's Coffee.</p> 
+
+	<p>Having been an owner of restaurants, Zeke has a special sensitivity to the client's experience in terms of timeliness, budgets and overall execution. He is involved in every step of the process to ensure that each detail receives the attention it deserves. "Business is personal to me because it involves people.  We all want our ideas illustrated in the best way possible.  People often ask me what makes me different, and I tell them this: I'm honest; I come with original ideas; I show up on time; I return phone calls. Above all, I use common sense which, in this industry, doesn't seem to be quite as common anymore."</p>
+	<br><br><br><br><br><br><br><br><br><br>
+	
+</div>
+
+</body>
+</html>

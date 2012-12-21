@@ -1,0 +1,81 @@
+$border_radius: 1em
+
+body
+	background-color: rgba(0,0,0,0.2)
+	font-size: 1.2em
+
+	ul
+		width: 50%
+		border-radius: $border_radius
+		margin: 0 auto
+		list-style-type: none
+		
+		li
+			width: 100%
+			display: block
+			text-align: middle
+
+		a
+			display: block
+			max-width: 50%
+			margin: 0 auto
+			text-align: center
+			color: black
+	p
+		width: 70%
+		display: block
+		margin: 2em auto
+
+
+#navigation
+	position: relative
+	width: 50%
+	margin: 2em auto
+
+	ul li
+		margin-top: 0.3em
+
+#login
+	width: 50%
+	display: block
+	margin: 5em auto 
+	background-color: orange
+	overflow-y: auto
+	padding: 1em
+	border-radius: 1em
+
+	input, span, button
+
+		position: relative
+		float: left
+		display: block
+		width: 65%
+		min-width: 100px
+		margin: 0.2em auto
+
+	span
+		width: 20%
+
+	button
+		clear: both
+		display: block
+		position: relative
+		left: 10%
+		width: 80%
+		margin: 2em auto 0em
+		padding: 0.2em
+		background-color: gray
+		border-radius: $border_radius
+
+		&:hover
+
+			background-color: darken(gray, 9%)
+
+#all_users
+	
+	h1
+		font-size: 1.1em
+
+	width: 50%
+	margin: 0 auto
+	text-align: center

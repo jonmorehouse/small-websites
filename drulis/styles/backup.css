@@ -1,0 +1,134 @@
+body {
+
+	background:url("../images/paper_bg.jpg");
+
+
+
+}
+#exit {
+
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:100%;
+	width:100%;
+	z-index:1;
+	display:none;
+}
+
+#title {
+
+	position:relative;
+	width:40%;
+	display:block;
+	margin:20px auto;
+
+}
+
+#title img {
+
+	position:relative;
+	width:100%;
+
+
+}
+
+#parent_window {
+
+	z-index:2;
+	width:70%;
+	position:relative;
+	margin:0 auto;
+	display:block;
+	overflow:hidden;
+	border-radius:20px;
+
+}
+
+#parent_window div {
+
+	position:relative;
+	float:left;
+	width:33.333%;
+	/*overflow-y:auto;*/
+	border-radius:20px;
+
+
+}
+
+#parent_window div img {
+
+	position:relative;
+	width:80%;
+	display:block;
+	cursor:pointer;
+	border-radius:20px;
+}
+
+#parent_window div {
+
+	border-radius:20px;
+
+}
+
+#parent_window div div.content {
+
+	position:absolute;
+	top:80%;
+	left:0;
+	right:0;
+	bottom:0;
+	height:100%;
+	width:80%;
+	z-index:20000;
+	cursor:pointer;
+	border-radius:20px;
+
+}
+
+
+#parent_window div div.content .left { /********** LEFT PANE THAT YOU SEE ON HOVER **********/
+
+	color:white;
+	background-color:rgba(0,0,0,0.8);
+	width:100%;
+	height:100%;
+
+
+}
+
+#parent_window div div.content .full { /****** THIS IS THE FULL CONTENT ***********/
+ 	
+ 	color:white;
+	width:80%;
+	height:80%;
+	background-color:rgba(0,0,0,1);
+	padding:10%;
+}
+
+#parent_window div div.content div.left .title {
+
+	width:100%;
+	height:20%;
+	position:relative;
+	top:0;
+}
+
+#parent_window div.left img {
+
+	width:100%;
+
+}
+
+#parent_window div div.title h1 {
+
+	position:relative;
+	display:block;
+	font-size:1.2em;
+	text-align:center;
+
+
+
+}
